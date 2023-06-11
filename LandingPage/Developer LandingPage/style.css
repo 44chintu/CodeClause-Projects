@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    background-color: antiquewhite;
+}
+
+.heroSection{
+    background-image: url("./developer.png");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textContainer{
+    color: white;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 60px;
+}
+
+.textContainer h1,h2{
+    align-items: center;
+
+}
+
+.lgText{
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.blackBox,footer{
+    background-color: black;
+    padding: 20px;
+}
+
+.blackBox h2,footer h2{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.blackBox h2 span{
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.work{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.card{
+    min-width: 50px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(1,1,1,0.2);
+    margin: 20px;
+    transition: 0.2s ease-in;
+&:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 5px 5px black;
+}
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.cardContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.cardContent h3{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.bottomSection{
+    display: flex;
+}
+
+.contact{
+    background-color: #515603;
+    flex: 1;
+}
+
+.about{
+    background-color: #722300;
+    flex: 3;
+}
+
+.contact, .about{
+    min-height: 300px;
+    padding: 40px;
+    color: white;
+}
+
+.contact p, .about p{
+    margin-bottom: 20px;
+}
+.contact h2, .about h2{
+    font-size: 30px;
+}
